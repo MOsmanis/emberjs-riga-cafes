@@ -1,0 +1,42 @@
+<Jumbo>
+  <h2>{{@cafe.title}}</h2>
+  <p>Šī izskatās pēc labas vietas, kur paēst!</p>
+  <ShareButton
+    @text="Check out {{@cafe.title}} on Super cafes!"
+    @hashtags="authentic,food,rigacafes"
+    @via="emberjs"
+  >
+    Padalīties Twitter
+  </ShareButton>
+</Jumbo>
+
+<article class="cafe detailed">
+  <Cafe::Image
+    src={{@cafe.image}}
+    alt="A picture of {{@cafe.title}}"
+  />
+
+  <div class="details">
+    <h3>Par {{@cafe.title}}</h3>
+
+    <div class="detail type">
+      <span>Tips:</span> {{@cafe.category}}
+    </div>
+    <div class="detail location">
+      <span>Lokācija:</span> {{@cafe.district}}
+    </div>
+    <div class="detail description">
+      <p>{{@cafe.description}}</p>
+    </div>
+  </div>
+
+  <Map
+    @lat={{@cafe.location.lat}}
+    @lng={{@cafe.location.lng}}
+    @zoom="12"
+    @width="894"
+    @height="600"
+    alt="A map of {{@cafe.title}}"
+    class="large"
+  />
+</article>

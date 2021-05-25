@@ -1,0 +1,17 @@
+{
+  "data": {
+    "type": "cafe",
+    "id": "street-burgers",
+    "attributes": {
+      "title": "Street Burgers",
+      "district": "Centrs",
+      "location": {
+        "lat": 56.95559101045524,
+        "lng": 24.121764343091
+      },
+      "category": "Burgernīca",
+      "image": "https://galleriariga.lv/wp-content/uploads/2017/05/StreetBurgers-1_GalleriaRiga.jpg",
+      "description": "Latvijā dibināts burgeru restorāns, kurš piedāvā vietējās izcelsmes liellopa un jēra gaļas burgerus no augstvērtīgiem, ar zāli barotiem buļļiem un jēriem."
+    }
+  }
+}

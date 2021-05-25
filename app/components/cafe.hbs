@@ -1,0 +1,27 @@
+<article class="cafe">
+  <Cafe::Image
+    src={{@cafe.image}}
+    alt="A picture of {{@cafe.title}}"
+  />
+  <div class="details">
+    <h3>
+      <LinkTo @route="cafe" @model={{@cafe}}>
+        {{@cafe.title}}
+      </LinkTo>
+    </h3>
+    <div class="detail type">
+      <span>Type:</span> {{@cafe.type}}
+    </div>
+    <div class="detail location">
+      <span>Location:</span> {{@cafe.district}}
+    </div>
+  </div>
+  <Map
+    @lat={{@cafe.location.lat}}
+    @lng={{@cafe.location.lng}}
+    @zoom="9"
+    @width="150"
+    @height="150"
+    alt="A map of {{@cafe.title}}"
+  />
+</article>

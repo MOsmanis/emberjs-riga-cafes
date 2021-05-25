@@ -1,0 +1,50 @@
+{
+  "data": [
+    {
+      "type": "caf",
+      "id": "street-burgers",
+      "attributes": {
+        "title": "Street Burgers",
+        "district": "Centrs",
+        "location": {
+          "lat": 56.95559101045524,
+          "lng": 24.121764343091
+        },
+        "category": "Burgernīca",
+        "image": "https://galleriariga.lv/wp-content/uploads/2017/05/StreetBurgers-1_GalleriaRiga.jpg",
+        "description": "Latvijā dibināts burgeru restorāns, kurš piedāvā vietējās izcelsmes liellopa un jēra gaļas burgerus no augstvērtīgiem, ar zāli barotiem buļļiem un jēriem."
+      }
+    },
+    {
+      "type": "caf",
+      "id": "the-beginnings",
+      "attributes": {
+        "title": "The Beginnings",
+        "district": "Centrs",
+        "location": {
+          "lat": 56.952507677703565,
+          "lng": 24.12370254263639
+        },
+        "category": "Restorāns / veikals",
+        "image": "http://thebeginningsrestorani.lv/wp-content/uploads/2014/11/MG_4041-HDR-e1520246632385.jpg",
+        "description": "Pagarini savu dzīvi ēdot veselīgi! Tieši to tev piedāvā The Beginnings – veselīgu uzturu, kas veidots, pamatojoties uz Ziemeļu un ilgdzīvotāju diētā izmantotiem produktiem un uztura vadlīnījām. Sadarbībā ar uzturspeciālistiem esam izstrādājuši ēdienu receptes un ērti uztveramas infografikas par katra ēdiena uzturvērtību."
+      }
+    },
+    {
+      "type": "caf",
+      "id": "lokals-veldze",
+      "attributes": {
+        "title": "Lokāls Veldze",
+        "district": "Āgenskalns",
+        "location": {
+          "lat": 56.94232508143666,
+          "lng": 24.06483872729531
+        },
+        "category": "Restorāns",
+        "bedrooms": 3,
+        "image": "https://scontent.frix1-1.fna.fbcdn.net/v/t1.6435-9/121610742_3442768229094946_5196827550538582955_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=8bfeb9&_nc_ohc=YvuzFW5oAP4AX_ZVVuA&_nc_ht=scontent.frix1-1.fna&oh=1c5fd819674a1e145ca5811d9333fe22&oe=60D06C9B",
+        "description": "Mūsu sātīgas, lēni gatavotās cūkgaļas ribiņas ar frī kartupeļiem un salātiem būs lieliska maltīte ideālai nedēļas nogalei!"
+      }
+    }
+  ]
+}

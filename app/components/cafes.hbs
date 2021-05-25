@@ -1,0 +1,14 @@
+<div class="cafes">
+<label>
+      <span>Kur jūs vēlaties paēst?</span>
+      <Input @value={{this.query}} class="light" />
+    </label>
+
+    <ul class="results">
+      <Cafes::Filter @cafes={{@cafes}} @query={{this.query}} as |results|>
+        {{#each results as |cafe|}}
+          <li><Cafe @cafe={{cafe}} /></li>
+        {{/each}}
+      </Cafes::Filter>
+    </ul>
+</div>

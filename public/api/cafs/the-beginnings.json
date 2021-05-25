@@ -1,0 +1,17 @@
+{
+  "data": {
+    "type": "cafe",
+    "id": "the-beginnings",
+    "attributes": {
+      "title": "The Beginnings",
+      "district": "Centrs",
+      "location": {
+        "lat": 56.952507677703565,
+        "lng": 24.12370254263639
+      },
+      "category": "Restorāns / veikals",
+      "image": "http://thebeginningsrestorani.lv/wp-content/uploads/2014/11/MG_4041-HDR-e1520246632385.jpg",
+      "description": "Pagarini savu dzīvi ēdot veselīgi! Tieši to tev piedāvā The Beginnings – veselīgu uzturu, kas veidots, pamatojoties uz Ziemeļu un ilgdzīvotāju diētā izmantotiem produktiem un uztura vadlīnījām. Sadarbībā ar uzturspeciālistiem esam izstrādājuši ēdienu receptes un ērti uztveramas infografikas par katra ēdiena uzturvērtību."
+    }
+  }
+}
