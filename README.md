@@ -14,7 +14,7 @@ You will need the following things properly installed on your computer.
 
 ## Installation
 
-* `git clone <repository-url>` this repository
+* `git clone https://github.com/MOsmanis/emberjs-riga-cafes.git` this repository
 * `cd riga-cafes`
 * `npm install`
 
